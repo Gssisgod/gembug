@@ -1,0 +1,22 @@
+/*
+gss is god, Gss is god, GSS is god.
+*/
+body{
+    margin: 0;
+    height: 100vh;
+}
+article{
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.25rem;
+    font-weight: 1000;
+    letter-spacing: -2px;
+}
+article > div:not(:last-child){
+    border-bottom: 3px solid black;
+}
+article > div{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
